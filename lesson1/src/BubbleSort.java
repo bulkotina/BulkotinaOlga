@@ -7,7 +7,7 @@ public class BubbleSort {
         int var;
         while (!flag) {
             flag = true;
-            for (int i = 0; i < arr.length-1; i++) {
+            for (int i = 0; i < arr.length - 1; i++) {
                 if (arr[i] > arr[i + 1]) {
                     var = arr[i];
                     arr[i] = arr[i + 1];
@@ -16,8 +16,8 @@ public class BubbleSort {
                 }
             }
         }
-                System.out.print(Arrays.toString(arr));
-            }
-        }
+        System.out.print(Arrays.toString(arr));
+    }
+}
 
 

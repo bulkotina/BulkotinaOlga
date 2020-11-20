@@ -6,7 +6,7 @@ public class Fibb {
         System.out.print("Введите число n: ");
         int n = in.nextInt();
         if (n < 2) {
-            System.out.print("Число n должно быть в диапазоне [2;100]");
+            System.out.print("Число n должно быть в диапазоне [2;100]!");
         } else {
             long[] arr = new long[n];
             arr[0] = 0;
